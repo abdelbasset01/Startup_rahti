@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "831951286934",
+    "firebase_url": "https://dbstartup-b882a-default-rtdb.firebaseio.com",
+    "project_id": "dbstartup-b882a",
+    "storage_bucket": "dbstartup-b882a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831951286934:android:a6a7dfb939e80c38e388b7",
+        "android_client_info": {
+          "package_name": "com.example.startup_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT6u3ljYSk_2qgVSNs5w7KXzELbEgUYBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

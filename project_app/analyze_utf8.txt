@@ -1,0 +1,76 @@
+﻿Analyzing project_app...                                        
+
+   info - Don't invoke 'print' in production code - lib\main.dart:32:5 - avoid_print
+warning - Unused import: 'package:firebase_database/firebase_database.dart' - lib\models\user_model.dart:1:8 - unused_import
+   info - 'Share' is deprecated and shouldn't be used. Use SharePlus instead - lib\pages\customer_profile_page.dart:483:5 - deprecated_member_use
+   info - 'share' is deprecated and shouldn't be used. Use SharePlus.instance.share() instead - lib\pages\customer_profile_page.dart:483:11 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\customer_profile_page.dart:658:30 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\pages\customer_register.dart:210:17 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\pages\customer_register.dart:312:33 - avoid_print
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\pages\customer_register.dart:338:60 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\pages\customer_register.dart:342:68 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\pages\delivery_page.dart:258:33 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\pages\delivery_page.dart:259:40 - use_build_context_synchronously
+warning - The declaration '_logout' isn't referenced - lib\pages\delivery_page.dart:294:16 - unused_element
+warning - The operand can't be 'null', so the condition is always 'false' - lib\pages\delivery_page.dart:611:63 - unnecessary_null_comparison
+warning - Dead code - lib\pages\delivery_page.dart:611:73 - dead_code
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\pages\delivery_page.dart:756:7 - deprecated_member_use
+warning - The declaration '_logout' isn't referenced - lib\pages\discount_page.dart:69:16 - unused_element
+warning - Unused import: 'driver_profile_page.dart' - lib\pages\driver_home_page.dart:8:8 - unused_import
+warning - The value of the field '_userData' isn't used - lib\pages\driver_home_page.dart:25:26 - unused_field
+warning - The declaration '_switchToCustomerMode' isn't referenced - lib\pages\driver_home_page.dart:51:16 - unused_element
+warning - The declaration '_logout' isn't referenced - lib\pages\driver_home_page.dart:55:16 - unused_element
+   info - Don't use 'BuildContext's across async gaps - lib\pages\driver_home_page.dart:262:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\pages\driver_home_page.dart:322:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\pages\driver_home_page.dart:328:28 - use_build_context_synchronously
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\pages\driver_home_page.dart:482:25 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\pages\driver_home_page.dart:581:13 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\pages\driver_home_page.dart:589:13 - deprecated_member_use
+   info - Unnecessary braces in a string interpolation - lib\pages\driver_home_page.dart:1070:32 - unnecessary_brace_in_string_interps
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\driver_profile_page.dart:399:89 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\driver_profile_page.dart:426:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\driver_profile_page.dart:659:54 - deprecated_member_use
+   info - 'Share' is deprecated and shouldn't be used. Use SharePlus instead - lib\pages\driver_profile_page.dart:1009:5 - deprecated_member_use
+   info - 'share' is deprecated and shouldn't be used. Use SharePlus.instance.share() instead - lib\pages\driver_profile_page.dart:1009:11 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\driver_profile_page.dart:1105:82 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\driver_profile_page.dart:1216:30 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\pages\driver_register.dart:375:13 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\pages\driver_register.dart:444:13 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\pages\driver_register.dart:459:15 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\pages\driver_register.dart:516:13 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\driver_register.dart:632:41 - deprecated_member_use
+   info - Use an initializing formal to assign a parameter to a field - lib\pages\history_page.dart:52:8 - prefer_initializing_formals
+   info - Unnecessary braces in a string interpolation - lib\pages\history_page.dart:140:35 - unnecessary_brace_in_string_interps
+   info - Unnecessary braces in a string interpolation - lib\pages\history_page.dart:148:35 - unnecessary_brace_in_string_interps
+warning - The declaration '_logout' isn't referenced - lib\pages\history_page.dart:342:16 - unused_element
+warning - The declaration '_getStatusColor' isn't referenced - lib\pages\history_page.dart:973:9 - unused_element
+warning - Unused import: '../services/role_service.dart' - lib\pages\home_page.dart:7:8 - unused_import
+warning - Unused import: 'customer_profile_page.dart' - lib\pages\home_page.dart:12:8 - unused_import
+warning - The value of the field '_userData' isn't used - lib\pages\home_page.dart:36:26 - unused_field
+warning - The declaration '_logout' isn't referenced - lib\pages\home_page.dart:316:16 - unused_element
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\pages\home_page.dart:390:27 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\pages\home_page.dart:446:27 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\pages\home_page.dart:529:27 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\pages\home_page.dart:585:27 - deprecated_member_use
+   info - Unnecessary use of string interpolation - lib\pages\home_page.dart:731:43 - unnecessary_string_interpolations
+warning - The declaration '_logout' isn't referenced - lib\pages\messages_page.dart:66:16 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\revenue_dashboard_page.dart:191:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\revenue_dashboard_page.dart:199:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\revenue_dashboard_page.dart:290:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\revenue_dashboard_page.dart:459:46 - deprecated_member_use
+   info - The private field _wantsNegotiation could be 'final' - lib\pages\seat_selection_page.dart:150:8 - prefer_final_fields
+   info - Don't invoke 'print' in production code - lib\pages\seat_selection_page.dart:341:5 - avoid_print
+   info - Statements in an if should be enclosed in a block - lib\pages\seat_selection_page.dart:721:43 - curly_braces_in_flow_control_structures
+   info - 'scale' is deprecated and shouldn't be used. Use scaleByVector3, scaleByVector4, or scaleByDouble instead - lib\pages\selection_page.dart:234:42 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\selection_page.dart:260:52 - deprecated_member_use
+   info - Statements in an if should be enclosed in a block - lib\pages\settings_page.dart:80:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\pages\settings_page.dart:86:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\pages\settings_page.dart:97:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\pages\settings_page.dart:104:9 - curly_braces_in_flow_control_structures
+   info - Don't invoke 'print' in production code - lib\services\profile_service.dart:23:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\services\role_service.dart:22:38 - use_build_context_synchronously
+warning - Unused import: 'package:firebase_auth/firebase_auth.dart' - lib\services\user_service.dart:3:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\logout_confirmation_dialog.dart:9:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\logout_confirmation_dialog.dart:52:35 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\widgets\main_app_bar.dart:7:9 - use_super_parameters
+
